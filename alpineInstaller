@@ -1,0 +1,23 @@
+#!/bin/bash
+#colors
+reset="\e[0m"
+red="\e[0;31m"
+green="\e[0;32m"
+cyan="\e[0;36m"
+blue="\e[0;34m"
+ylw="\e[1;33m"
+pink="\e[0;35m"
+echo " $pink You are going to install alpine os GUI $reset"
+pkg update -y 
+pkg install figlet
+pkg install ruby
+gem install lolcat
+figlet alpine | lolcat
+echo -e "$cyan CODED BY RAHIM $reset"
+pkg install curl proot tar -y 
+curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Alpine/alpinexfce.sh | bash
+mv bash.bashrc /data/data/com.termux/files/usr/etc
+cd 
+echo -e "$ylw Alpine sucssfully instled "
+echo -e "$ylw START YOUR TERMUX AGAIN $reset"
+exit
