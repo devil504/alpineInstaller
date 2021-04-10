@@ -20,4 +20,5 @@ mv bash.bashrc /data/data/com.termux/files/usr/etc
 cd 
 echo -e "$ylw Alpine sucssfully instled "
 echo -e "$ylw START YOUR TERMUX AGAIN $reset"
+mv alpine-fs alpine-binds start-alpine.sh /$HOME
 exit
