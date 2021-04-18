@@ -1,7 +1,8 @@
 # alpineInstaller
 <h3>Using this tool you can install Alpine OS in termux. And also you can use it in GUI mode.</h3>
-
+<img src="" height="200px" width="350px" />
 <h3>Tool Installation</h3>
+
 <code> pkg install git </code>
 
 
